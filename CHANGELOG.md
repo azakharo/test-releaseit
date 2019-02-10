@@ -1,3 +1,9 @@
+## <small>0.1.11 (2019-02-10)</small>
+
+* use default changelog as a release notes ([7c977a2](https://github.com/azakharo/test-releaseit/commit/7c977a2))
+
+
+
 ## <small>0.1.10 (2019-02-10)</small>
 
 * try to fix empty release notes ([a620f97](https://github.com/azakharo/test-releaseit/commit/a620f97))
