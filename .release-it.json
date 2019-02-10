@@ -16,6 +16,6 @@
   },
   "github": {
     "release": true,
-    "assets": ["*.zip"]
+    "assets": ["*.tar.gz"]
   }
 }
