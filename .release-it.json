@@ -1,10 +1,12 @@
 {
+  "pkgFiles": [
+    "package.json",
+    "package-lock.json"
+  ],
   "scripts": {
     "beforeStart": "npm test",
-    "beforeStage": "echo BEFORE STAGE",
-    "afterRelease": "echo AFTER RELEASE"
+    "afterBump": "npm run build"
   },
-  "buildCommand": "npm run build",
   "git": {
     "tagName": "v${version}"
   },
