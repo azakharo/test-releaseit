@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "beforeStart": "npm test"
+    "beforeStart": "npm test",
+    "beforeStage": "echo BEFORE STAGE",
+    "afterRelease": "echo AFTER RELEASE"
   },
   "buildCommand": "npm run build",
   "git": {
