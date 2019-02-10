@@ -5,7 +5,8 @@
   ],
   "scripts": {
     "beforeStart": "npm test",
-    "afterBump": "npm run build"
+    "afterBump": "npm run build",
+    "beforeStage": "tar -czvf c2-ui-${version}.tar.gz build"
   },
   "git": {
     "tagName": "v${version}"
@@ -15,6 +16,6 @@
   },
   "github": {
     "release": true,
-    "assets": ["build/*"]
+    "assets": ["*.zip"]
   }
 }
