@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "beforeStart": "npm test"
+  },
+  "buildCommand": "npm run build",
   "git": {
     "tagName": "v${version}"
   },
