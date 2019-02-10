@@ -1,6 +1,6 @@
 {
   "name": "test-releaseit",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": true,
   "dependencies": {
     "react": "^16.8.1",
